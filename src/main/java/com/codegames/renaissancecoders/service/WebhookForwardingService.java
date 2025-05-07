@@ -39,7 +39,7 @@ public class WebhookForwardingService {
     }
 
     /*****************************************************
-     ** Fetch only required info from the huge metadata yes **
+     ** Fetch only required info from the huge metadata**
      *****************************************************/
     private Object mapFromJira(Object payload) {
         // Convert or extract only the fields you need from Jira webhook
